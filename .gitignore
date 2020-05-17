@@ -1,14 +1,24 @@
-/node_modules
-/build
+# Compiled files
+dist/
 
-dev.js
+# Config file
+config/config.js
 
-
-
-.DS_Store
-
+# Node stuff
+node_modules
+.npm
+.node_repl_history
+.lock-wscript
+logs
+*.log
 npm-debug.log*
-yarn-debug.kog*
-yarn-error.log*
 
-.vscode
+# OS stuff
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+$RECYCLE.BIN/
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes
